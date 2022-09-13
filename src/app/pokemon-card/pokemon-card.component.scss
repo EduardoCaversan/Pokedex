@@ -1,0 +1,248 @@
+.pokemon-card{
+    font-family: dhyana;
+    margin: 0 5px 50px;
+    width: 215px;
+   justify-self: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.pokemon-card__image{
+        background-color: #f2f2f2;
+        border-radius: 20px;
+}
+.pokemon--card__number{
+    padding: 0 10px;
+    color: #919191;
+    font-size: 80%;
+    padding-top: 2px;
+
+}
+.pokemon--card__name{
+    padding: 0 10px;
+    font-size: 145%;
+    color: #313131;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+.pokemon--card__type{
+    display: inline-block;
+    border-radius: 3px;
+    font-size: 11px;
+    line-height: 18px;
+    margin: 0 10px;
+    max-width: 110px;
+    text-align: center;
+    text-transform: capitalize;
+    width: 38.4375%;
+    color: rgb(0, 0, 0);
+    font-family: dhyana;
+}
+.pokemon--card__type--fire{
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 3px;
+    line-height: 18px;
+    max-width: 110px;
+    width: 70px;
+    font-size: 11px;
+    text-align: center; 
+    background: orangered;
+}
+.pokemon--card__type--fighting{
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 3px;
+    line-height: 18px;
+    max-width: 110px;
+    width: 70px;
+    font-size: 11px;
+    text-align: center;
+    background: crimson;
+}
+.pokemon--card__type--grass{
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 3px;
+    line-height: 18px;
+    max-width: 110px;
+    width: 70px;
+    font-size: 11px;
+    text-align: center;
+    color: black;
+    background: yellowgreen;
+}
+.pokemon--card__type--water{
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 3px;
+    line-height: 18px;
+    max-width: 110px;
+    width: 70px;
+    font-size: 11px;
+    text-align: center;
+    color: #fff;
+    background: blue;
+}
+.pokemon--card__type--flying{
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 3px;
+    line-height: 18px;
+    max-width: 110px;
+    width: 70px;
+    font-size: 11px;
+    text-align: center;
+    background: powderblue;
+}
+.pokemon--card__type--bug{
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 3px;
+    line-height: 18px;
+    max-width: 110px;
+    width: 70px;
+    font-size: 11px;
+    text-align: center;
+    color: #fff;
+    background: green;
+}
+.pokemon--card__type--poison{
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 3px;
+    line-height: 18px;
+    max-width: 110px;
+    width: 70px;
+    font-size: 11px;
+    text-align: center;
+    color: #fff;
+    background: blueviolet;
+}
+.pokemon--card__type--normal{
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 3px;
+    line-height: 18px;
+    max-width: 110px;
+    width: 70px;
+    font-size: 11px;
+    text-align: center;
+    color: #fff;
+    background: gray;
+}
+.pokemon--card__type--electric{
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 3px;
+    line-height: 18px;
+    max-width: 110px;
+    width: 70px;
+    font-size: 11px;
+    text-align: center;
+    background: #fbff00;
+}
+.pokemon--card__type--dragon{
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 3px;
+    line-height: 18px;
+    max-width: 110px;
+    width: 70px;
+    font-size: 11px;
+    text-align: center;
+    background: -webkit-linear-gradient(90deg, rgb(180, 179, 179) 50%, rgba(144, 249, 249, 0.867) 50%);
+}
+.pokemon--card__type--ground{
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 3px;
+    line-height: 18px;
+    max-width: 110px;
+    width: 70px;
+    font-size: 11px;
+    text-align: center;
+    color: rgb(50, 49, 49);
+    background: -webkit-linear-gradient(90deg,rgb(210, 119, 1) 50%, rgb(252, 209, 53) 50%);
+}
+.pokemon--card__type--rock{
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 3px;
+    line-height: 18px;
+    max-width: 110px;
+    width: 70px;
+    font-size: 11px;
+    text-align: center;
+    color:#fff;
+    background: rgb(111, 75, 33);
+}
+.pokemon--card__type--psychic{
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 3px;
+    line-height: 18px;
+    max-width: 110px;
+    width: 70px;
+    font-size: 11px;
+    text-align: center;
+    background: rgb(247, 0, 255);
+}
+.pokemon--card__type--ghost{
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 3px;
+    line-height: 18px;
+    max-width: 110px;
+    width: 70px;
+    font-size: 11px;
+    text-align: center;
+    color: #fff;
+    background: rgb(62, 2, 117)
+}
+.pokemon--card__type--ice{
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 3px;
+    line-height: 18px;
+    max-width: 110px;
+    width: 70px;
+    font-size: 11px;
+    text-align: center;
+    background: rgb(114, 233, 252);
+}
+.pokemon--card__type--steel{
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 3px;
+    line-height: 18px;
+    max-width: 110px;
+    width: 70px;
+    font-size: 11px;
+    text-align: center;
+    color: white;
+    background: rgb(62, 62, 62);
+}
+.pokemon--card__type--dark{
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 3px;
+    line-height: 18px;
+    max-width: 110px;
+    width: 70px;
+    font-size: 11px;
+    text-align: center;
+    background: darkslategrey;
+    color:white;
+}
+.pokemon--card__type--fairy{
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 3px;
+    line-height: 18px;
+    max-width: 110px;
+    width: 70px;
+    font-size: 11px;
+    text-align: center;
+    background: rgb(255, 0, 136);
+}
